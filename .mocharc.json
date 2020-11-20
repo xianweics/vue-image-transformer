@@ -1,0 +1,10 @@
+{
+  "bail": false,
+  "slow": 75,
+  "timeout": 20000,
+  "ui": "bdd",
+  "spec": [
+    "test/**/*.{spec,test}.{ts,js}"
+  ],
+  "require": "@babel/register"
+}
